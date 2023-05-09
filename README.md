@@ -29,6 +29,7 @@ x[-length(x)]
 Finally, it is also possible to use boolean value to extract the elements of a vector. This is another useful approach. Here are a few examples:
 
 y = c(1,2,3,4,5,6,7,8,9,10)
+
 y[c(F,T)]
 
 ```
