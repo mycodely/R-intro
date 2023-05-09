@@ -1,7 +1,7 @@
 # R-intro
 Resumes, Exercises and newbie courses!
 
-##Vectors
+## Vectors
 As indicated earlier, a vector has a homogeneous data structure meaning that it can only contain a single type among all the data types. Therefore, when more than one data type is provided, R will coerce the data into a "shared" type. To identify this "shared" type we can use this simple rule:
 
 logical < integer < numeric < character,
