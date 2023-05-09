@@ -26,3 +26,14 @@ x[-length(x)]
 
 ```
 
+Finally, it is also possible to use boolean value to extract the elements of a vector. This is another useful approach. Here are a few examples:
+
+y = c(1,2,3,4,5,6,7,8,9,10)
+y[c(F,T)]
+
+```
+[1]  2  4  6  8 10                                           //OUTPUT
+
+```
+Recycling is a feature in R that allows operations to be performed on vectors of different lengths. Instead of throwing an error or requiring the vectors to have the same length, R recycles or repeats the values of the shorter vector so that it has the same length as the longer vector. This allows vector operations to be performed more easily.
+
