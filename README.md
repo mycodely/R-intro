@@ -10,19 +10,19 @@ logical < integer < numeric < character,
 We can also use negative indices which are used to remove elements in a vector. Here are some examples:
 (x = c(1,2,4,5,1))
 ```
-[1] 1 2 4 5 1 //output
+[1] 1 2 4 5 1                                                //OUTPUT
 
 ```
 
 x[-1]
 ```
-[1] 2 4 5 1 //output
+[1] 2 4 5 1                                                  //OUTPUT
 ```
 
 or its last element:
 x[-length(x)]
 ```
-[1] 1 2 4 5 /output
+[1] 1 2 4 5                                                  //OUTPUT
 
 ```
 
