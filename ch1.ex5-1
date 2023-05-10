@@ -36,5 +36,10 @@ x = seq(from = -20, to =20 )
 Convert the variable to KM/Liter. Note that the conversion scale is 1 mpg (US) = 0.425144 km/L.
 
 ```
-
+data(mtcars)
+x = mtcars$mpg
+x = x * 0.425144 
+print(paste("mean: ", mean(x)))
+print(paste("median: ", median(x)))
+print(paste("variance: ", var(x)))
 ```
