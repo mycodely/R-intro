@@ -1,0 +1,40 @@
+1) Guess what the code below is doing:
+```
+x = c(1,2,4,7,15)
+n = length(x)
+x[n:1]
+```
+[1] 15 7 4 2 1
+
+2) Try to obtain the same results of the command x[n:1] but using the function sort().
+
+```
+x = c(1,2,4,7,15)
+sort(x, decreasing = TRUE)
+```
+
+3) Extract all the odd numbers from 1 to 1000.
+```
+seq(from = 1, to = 1000, by = 2)
+```
+
+4) Extract all the multiples of 4 from 1 to 444.
+```
+myseq = 4 * seq(111)
+myseq
+```
+
+5) Plot the Sigmoïd function from x ∈[−20,20]. Recall that the sigmoïd function is f(x)=1/(1+e−x).
+
+```
+x = seq(from = -20, to =20 )
+> y= 1/(1+exp(-x))
+> plot(x,y,type = "l", col="red")
+```
+
+6) Load the dataset mtcars and calculate the mean, median and variance of the variable mpg (“Miles/(US) gallon”).
+Convert the variable to KM/Liter. Note that the conversion scale is 1 mpg (US) = 0.425144 km/L.
+
+```
+
+```
