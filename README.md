@@ -1,5 +1,5 @@
 # R-intro
-Resources to learn data science: Summaries, exercises, and beginner courses based on https://intro-to-ds.netlify.app and https://github.com/paulovillarroel/curso-ciencia-datos
+Resources to learn data science: Summaries, exercises, and beginner courses based on https://intro-to-ds.netlify.app and https://github.com/paulovillarroel/curso-ciencia-datos , https://crisbonavida-rclass.netlify.app/programa.html
 
 ## Vectors
 As indicated earlier, a vector has a homogeneous data structure meaning that it can only contain a single type among all the data types. Therefore, when more than one data type is provided, R will coerce the data into a "shared" type. To identify this "shared" type we can use this simple rule:
